@@ -76,7 +76,7 @@ body {
 	height: 100vh;
 	left: 0;
 	overflow-y: auto;
-	position: fixed;
+	position: absolute;
 	top: 0;
 	width: $large-size;
 	transition: width 0.3s linear;

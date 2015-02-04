@@ -38,6 +38,7 @@
         MSdotcomOffsetMenu.leftCloseButton.on('click', function (e) {
             window.requestAnimationFrame(MSdotcomOffsetMenu.CloseOffset);
         });
+        
         $('.toolbox button:first-child').on('keydown', function (e) {
             var code = e.keyCode || e.which;
             if (e.shiftKey && code === 9) {
@@ -97,7 +98,6 @@
     },
 
     AnimateOffsetJS: function (width) {
-        MSdotcomOffsetMenu.leftMenuButton.animate({left: width}, {duration: 300, easing: "linear", queue: false });
         MSdotcomOffsetMenu.page.animate({ left: width }, {
             duration: 300, 
             easing: "linear", 
