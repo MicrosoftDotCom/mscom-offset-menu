@@ -84,6 +84,7 @@ body.offsetopened {
   display: block;
   padding: 1em;
   text-align: left;
+  text-decoration: none;
   white-space: normal;
   width: 100%;
 }
@@ -97,9 +98,9 @@ body.offsetopened {
   border: none;
   cursor: pointer;
   display: inline-block;
+  height: 4.6em;
   padding: 1em;
   position: fixed;
-  top: 0;
   z-index: 1;
 }
 .offset-menu-button:hover, .offset-menu-button:focus {

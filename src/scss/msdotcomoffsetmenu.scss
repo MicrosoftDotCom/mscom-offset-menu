@@ -76,7 +76,7 @@ body {
 	height: 100vh;
 	left: 0;
 	overflow-y: auto;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: $large-size;
 	transition: width 0.3s linear;
@@ -118,7 +118,6 @@ body {
 	height: 4.6em;
 	padding: 1em;
 	position: fixed;
-	top: 0;
 	z-index: 1;
 
 	&:hover, &:focus {
